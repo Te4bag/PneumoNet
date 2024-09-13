@@ -27,4 +27,4 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 - The model was trained for 10 epochs with a batch size of 32.
 - Loss function used was BinaryCrossentropy
 - Adam was used as optimizer with learning rate of 0.0001
-- We recieved a validation accuracy of **62.5%** and testing accuracy of **91.03%** 
+- We recieved a validation accuracy of **68.75%** and testing accuracy of **91.03%** 
