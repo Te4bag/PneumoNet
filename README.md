@@ -1,6 +1,6 @@
 # PneumoPred
 A Deep CNN image classifier that takes chest x-rays as input and predicts whether or not the patient has pneumonia.<br><br>
-![Prediction Plot](https://github.com/niyarrbarman/pneumonia/blob/main/images/prediction.png)
+![Prediction Plot](https://github.com/Te4bag/PneumoNet/blob/main/Images/Screenshot%202024-09-13%20151008.png)
 # Contents
 1. Dataset<br/>
 2. Tools and libraries<br/>
@@ -22,7 +22,7 @@ Images were resized to 256px x 256px and normalized between [0,1]
 A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other. The pre-processing required in a ConvNet is much lower as compared to other classification algorithms. While in primitive methods filters are hand-engineered, with enough training, ConvNets have the ability to learn these filters/characteristics.
 
 The architecture of a ConvNet is analogous to that of the connectivity pattern of Neurons in the Human Brain and was inspired by the organization of the Visual Cortex. Individual neurons respond to stimuli only in a restricted region of the visual field known as the Receptive Field. A collection of such fields overlap to cover the entire visual area.
-![CNN](https://github.com/niyarrbarman/pneumonia/blob/main/images/cnn.gif)
+![CNN](https://github.com/Te4bag/PneumoNet/blob/main/Images/cnn.gif)
 ## 5. Training and Evaluation
 - The model was trained for 10 epochs with a batch size of 32.
 - Loss function used was BinaryCrossentropy
