@@ -17,7 +17,7 @@ Dataset is available on Kaggle. [Click Here to go to Dataset](https://www.kaggle
 - NumPy
 - Matplotlib
 ## 3. Data Preprocessing
-Images were resized to 256px x 256px and normalized between [0,1]
+Images were resized to 224px x 224px and normalized between [0,1] as they are the expected shapes in ResnNet50V2
 ## 4. Model Architecture
 A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other. The pre-processing required in a ConvNet is much lower as compared to other classification algorithms. While in primitive methods filters are hand-engineered, with enough training, ConvNets have the ability to learn these filters/characteristics.
 
@@ -25,6 +25,8 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 ![CNN](https://github.com/Te4bag/PneumoNet/blob/main/Images/cnn.gif)
 ## 5. Training and Evaluation
 - The model was trained for 10 epochs with a batch size of 32.
-- Loss function used was BinaryCrossentropy
+- Loss function used was CategoricalCrossentropy
 - Adam was used as optimizer with learning rate of 0.0001
-- We recieved a validation accuracy of **68.75%** and testing accuracy of **91.03%** 
+- We recieved a validation accuracy of **93.75** and testing accuracy of **92.6%**
+- Precision of **92.8%** and a F1 score of **94.2%** was obtained
+ 
